@@ -1,0 +1,25 @@
+premier etape j'ai demander comment acceder a son dossier sur git 
+cd /chemin/vers/votre/dossier
+ls  # (ou 'dir' sous Windows) pour voir les fichiers
+
+ensuite je voulais savoir comment cloner un depot distant 
+il m'a dit que si je voulais recuperer un projet depuis github
+il faut faire ;git clone https://github.com/utilisateur/nom-du-repo.git
+cd nom-du-repo
+
+je voulais Vérifier si vous êtes dans un dossier Git
+si je suis deja dans un dossier il suffit de faire la commande git status \
+
+
+ensuite j'ai aussi regarder le cours du prof qui est disponible sur son 
+site pourvoir relire certaines commande 
+
+je voulais enregistrer les fichiers avec un commit
+la commande et git commit -m "ajout des fichiers du projet"
+
+
+j'ai compris a quoi servaient c'est commande 
+
+git add . → Ajoute tous les fichiers de votre dossier.
+git commit -m "Message" → Enregistre les fichiers ajoutés avec un message.
+git push origin main → Envoie les fichiers sur GitHub.
