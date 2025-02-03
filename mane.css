@@ -1,0 +1,98 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rebeccapurple;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section principale */
+section {
+    width: 80%;
+    margin: 20px auto; /* Centrer avec une marge */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #080808;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Texte et titres */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Portefolio{
+    color: #ffffff;
+}
+/* Boîte avec ombre */
+.shadowbox {
+    width: 300px;
+    padding: 20px;
+    /* padding est une propriété raccourcie qui permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément  */
+    margin: 30px auto; /* Centrer avec des marges */
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Bouton personnalisé */
+button.favorite.styled {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: orange;
+    /* background-color permet de définir la couleur utilisée pour l'arrière-plan d'un élément */
+    color: white;                    
+     /* color color définit la couleur de premier plan d'un élément texte et de ses éventuelles décorations */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    /* font-size définit la taille de fonte utilisée pour le texte. */
+}
+
+button.favorite.styled:hover {
+    background-color: darkorange;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table thead {
+    background-color: #8f8b8b;
+}
+
+/* Formulaire */
+.form-example {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Image */
+img.fit-picture {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
